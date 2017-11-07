@@ -9,5 +9,5 @@ spec:
     - ReadWriteOnce
   nfs: 
     path: /exports/cfme-pv01
-    server: <your-nfs-host-here>
+    server: support1.rdu12.internal
   persistentVolumeReclaimPolicy: Retain
